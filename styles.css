@@ -235,7 +235,7 @@ body {
   border-radius: 4px;
 }
 
-.card h3 .card-link:hover {
+.card .card-link:hover {
   color: #ff5000;
 }
 
