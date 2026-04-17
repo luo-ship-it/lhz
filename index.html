@@ -18,10 +18,11 @@
 
   <div class="container search-area">
     <div class="logo">淘宝风格</div>
-    <div class="search-box">
-      <input type="text" placeholder="搜索商品 / 店铺">
-      <button>搜索</button>
-    </div>
+    <form class="search-box" action="#" method="get">
+      <label class="sr-only" for="site-search">搜索商品或店铺</label>
+      <input id="site-search" name="q" type="text" placeholder="搜索商品 / 店铺" aria-label="搜索商品或店铺">
+      <button type="submit">搜索</button>
+    </form>
   </div>
 
   <nav class="nav">
