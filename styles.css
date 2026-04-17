@@ -37,7 +37,21 @@ body {
   display: flex;
   align-items: center;
   gap: 20px;
+}
+
+.topbar-inner a {
   color: #666;
+  text-decoration: none;
+}
+
+.topbar-inner a:hover {
+  color: #ff5000;
+}
+
+.topbar-inner a:focus-visible {
+  outline: 2px solid #ff5000;
+  outline-offset: 2px;
+  border-radius: 2px;
 }
 
 .search-area {
@@ -147,6 +161,21 @@ body {
 .category li {
   padding: 10px 0;
   border-bottom: 1px solid #f0f0f0;
+}
+
+.category li a {
+  color: #333;
+  text-decoration: none;
+}
+
+.category li a:hover {
+  color: #ff5000;
+}
+
+.category li a:focus-visible {
+  outline: 2px solid #ff5000;
+  outline-offset: 2px;
+  border-radius: 2px;
 }
 
 .hero .banner {
